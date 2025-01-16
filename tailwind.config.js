@@ -1,4 +1,4 @@
-/* @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -12,6 +12,9 @@ export default {
         'max-md': { 'max': '768px' },
         'max-lg': { 'max': '1023px' },
         'max-xl': { 'max': '1279px' },
+      },
+      colors: {
+        customBlue: 'rgba(39, 140, 255, 1)', // Your custom RGBA color
       },
     },
   },

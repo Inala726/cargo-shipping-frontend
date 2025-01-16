@@ -1,5 +1,5 @@
 import "./App.css";
-import Herosection from "./components/Herosection";
+import Herosection from "./components/Homepage";
 
 function App() {
   return (
