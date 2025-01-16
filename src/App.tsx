@@ -1,10 +1,12 @@
 import "./App.css";
-import Herosection from "./components/Homepage";
+import Footer from "./components/Footer";
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
     <>
-      <Herosection />
+      <Homepage />
+      <Footer/>
     </>
   );
 }

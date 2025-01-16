@@ -18,8 +18,7 @@ import blackWoman from "../assets/images/Rectangle 8 (2).png";
 import fx from "../assets/images/Ellipse 4.png";
 import progressBar from "../assets/images/Group 2.png";
 import downImage from "../assets/images/5.jpg";
-import Footer from "./Footer";
-
+import frame from "../assets/images/Frame 63.png"
 const Homepage = () => {
   return (
     <>
@@ -494,7 +493,10 @@ const Homepage = () => {
           </form>
         </div>
       </div>
-      <Footer/>
+
+      <div className="w-[80%] mx-auto mb-24">
+        <img src={frame} alt="" />
+      </div>
     </>
   );
 };
